@@ -42,7 +42,9 @@ const projects = (await getCollection("work"))
 					</div>
 				</Hero>
 
-				<img alt="" src="" />
+				<!-- <img alt="" src="" /> -->
+				<canvas id="hero-canvas">
+				</canvas>
 			</header>
 
 			<!-- <Skills /> -->
@@ -123,7 +125,7 @@ const projects = (await getCollection("work"))
 		display: none;
 	}
 
-	.hero img {
+	.hero canvas {
 		aspect-ratio: 5 / 4;
 		object-fit: cover;
 		object-position: top;
@@ -145,7 +147,7 @@ const projects = (await getCollection("work"))
 			gap: 0.5rem;
 		}
 
-		.hero img {
+		.hero canvas {
 			aspect-ratio: 3 / 4;
 			border-radius: 4.5rem;
 			object-fit: cover;
