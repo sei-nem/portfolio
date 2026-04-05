@@ -34,7 +34,8 @@ const projects = (await getCollection("work"))
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill
 						>
-						<Pill><Icon icon="engineer" size="1.33em" /> Engineer</Pill
+						<Pill
+							><Icon icon="engineer" size="1.33em" /> Engineer</Pill
 						>
 						<Pill
 							><Icon icon="pencil-line" size="1.33em" /> Writer</Pill
@@ -43,8 +44,12 @@ const projects = (await getCollection("work"))
 				</Hero>
 
 				<!-- <img alt="" src="" /> -->
-				<canvas id="hero-canvas">
-				</canvas>
+				<canvas id="tex"> </canvas>
+				<script>
+					import Tex from "@/script/tex/main.js";
+
+					new Tex();
+				</script>
 			</header>
 
 			<!-- <Skills /> -->
@@ -126,9 +131,8 @@ const projects = (await getCollection("work"))
 	}
 
 	.hero canvas {
+		width: 100%;
 		aspect-ratio: 5 / 4;
-		object-fit: cover;
-		object-position: top;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
 	}
@@ -150,7 +154,6 @@ const projects = (await getCollection("work"))
 		.hero canvas {
 			aspect-ratio: 3 / 4;
 			border-radius: 4.5rem;
-			object-fit: cover;
 		}
 	}
 
