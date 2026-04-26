@@ -4,16 +4,10 @@ import Hero from "../components/Hero.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout
-	title="About Me | Nemoto's Portfolio"
-	description="私について"
->
+<BaseLayout title="About Me | Nemoto's Portfolio" description="私について">
 	<div class="stack gap-20">
 		<main class="wrapper about">
-			<Hero
-				title="About Me"
-				tagline=""
-			>
+			<Hero title="About Me" tagline="">
 				<img
 					width="150"
 					height="150"
@@ -27,29 +21,747 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 				<h2 class="section-title">自己紹介</h2>
 				<div class="content">
 					<p>
-						
+						大阪でWEBエンジニアとして働いている根本といいます。
+						フロントエンドよりの人間ですがバックエンドも書けます。<br
+						/>
+						今はJamstackでサイトを作るのが好きで、JSのフレームワークを使った仕事をしたいと思っております。
+						<br />
+						他にもSEO最適化、スクレイピングによるデータ収集、RPA開発、社内ツール開発などなんでもやります。
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">スキル</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+				<div class="content skill">
+					<h3>Proficiency</h3>
+
+					<img src="/img/T-Rex.png" width="30" /> = それなりに使える <br
+					/>
+					<img src="/img/Dodo.png" width="30" /> = まあまあ使える <br
+					/>
+					<img src="/img/HatchingChick.png" width="30" /> = なんとなく、勉強中
+					<br />
+
+					<h3>Favorite</h3>
+
+					<img src="/img/SparklingHeart.png" width="30" /> = 好き <br
+					/>
+					<img src="/img/SlightlySmilingFace.png" width="30" /> = 普通 <br
+					/>
+					<img src="/img/NauseatedFace.png" width="30" /> = 苦手 <br
+					/>
+
+					<table>
+						<tr>
+							<th><strong>#</strong></th>
+							<th><strong>Language</strong></th>
+							<th><strong>Proficiency</strong></th>
+							<th><strong>Favorite</strong></th>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/js.svg"
+									alt="javascript"
+									width="30"
+								/></td
+							>
+							<td><code>Javascript</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/ts.svg"
+									alt="typescript"
+									width="30"
+								/></td
+							>
+							<td><code>Typescript</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/python.svg"
+									alt="python"
+									width="30"
+								/></td
+							>
+							<td><code>Python</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/php.svg"
+									alt="php"
+									width="30"
+								/></td
+							>
+							<td><code>PHP</code></td>
+							<td><img src="/img/Dodo.png" width="30" /></td>
+							<td
+								><img
+									src="/img/NauseatedFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/glsl.svg"
+									alt="glsl"
+									width="30"
+								/></td
+							>
+							<td><code>GLSL</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/html.svg"
+									alt="html"
+									width="30"
+								/></td
+							>
+							<td><code>HTML</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<td><img src="/icon/css.svg" alt="css" width="30" /></td
+						>
+						<td><code>CSS(SCSS)</code></td>
+						<td><img src="/img/Dodo.png" width="30" /></td>
+						<td
+							><img
+								src="/img/SlightlySmilingFace.png"
+								width="30"
+							/></td
+						>
+					</table>
+
+					<table>
+						<tr>
+							<th><strong>#</strong></th>
+							<th><strong>Library<br />Framework</strong></th>
+							<th><strong>Proficiency</strong></th>
+							<th><strong>Favorite</strong></th>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/react.svg"
+									alt="react"
+									width="30"
+								/></td
+							>
+							<td><code>React</code></td>
+							<td><img src="/img/Dodo.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/nextjs.svg"
+									alt="nextjs"
+									width="30"
+								/></td
+							>
+							<td><code>Next.js</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/astro.svg"
+									alt="astro"
+									width="30"
+								/></td
+							>
+							<td><code>Astro</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/eleventy.svg"
+									alt="eleventy"
+									width="30"
+								/></td
+							>
+							<td><code>eleventy</code></td>
+							<td><img src="/img/Dodo.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/vite.svg"
+									alt="vite"
+									width="30"
+								/></td
+							>
+							<td><code>Vite</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/threejs.svg"
+									alt="threejs"
+									width="30"
+								/></td
+							>
+							<td><code>Three.js</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/flask.svg"
+									alt="flask"
+									width="30"
+								/></td
+							>
+							<td><code>Flask</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/fastapi.svg"
+									alt="fastapi"
+									width="30"
+								/></td
+							>
+							<td><code>Fastapi</code></td>
+							<td><img src="/img/Dodo.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/selenium.svg"
+									alt="selenium"
+									width="30"
+								/></td
+							>
+							<td><code>selenium</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/jinja2.svg"
+									alt="jinja2"
+									width="30"
+								/></td
+							>
+							<td><code>Jinja2</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/nunjucks.svg"
+									alt="nunjucks"
+									width="30"
+								/></td
+							>
+							<td><code>Nunjucks</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/wordpress.svg"
+									alt="wordpress"
+									width="30"
+								/></td
+							>
+							<td><code>Wordpress</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/NauseatedFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/jQuery.svg"
+									alt="jquery"
+									width="30"
+								/></td
+							>
+							<td><code>jQuery</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/NauseatedFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+					</table>
+
+					<table>
+						<tr>
+							<th><strong>#</strong></th>
+							<th><strong>Other</strong></th>
+							<th><strong>Proficiency</strong></th>
+							<th><strong>Favorite</strong></th>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/SQLite.svg"
+									alt="sqlite"
+									width="30"
+								/></td
+							>
+							<td><code>SQLite</code></td>
+							<td><img src="/img/Dodo.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/postgresql.svg"
+									alt="postgresql"
+									width="30"
+								/></td
+							>
+							<td><code>PostgreSQL</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/GCP.svg"
+									alt="gcp"
+									width="30"
+								/></td
+							>
+							<td><code>GCP</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/cloudflare.svg"
+									alt="cloudflare"
+									width="30"
+								/></td
+							>
+							<td><code>Cloudflare</code></td>
+							<td><img src="/img/Dodo.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/git.svg"
+									alt="git"
+									width="30"
+								/></td
+							>
+							<td><code>git</code></td>
+							<td><img src="/img/Dodo.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/github.svg"
+									alt="github"
+									width="30"
+								/></td
+							>
+							<td><code>GitHub</code></td>
+							<td><img src="/img/Dodo.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/vscode.svg"
+									alt="vscode"
+									width="30"
+								/></td
+							>
+							<td><code>vscode</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SparklingHeart.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/ubuntu.svg"
+									alt="ubuntu"
+									width="30"
+								/></td
+							>
+							<td><code>Ubuntu(WSL)</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/linux.svg"
+									alt="linux"
+									width="30"
+								/></td
+							>
+							<td><code>Linux</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/docker.svg"
+									alt="docker"
+									width="30"
+								/></td
+							>
+							<td><code>Docker</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/NauseatedFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/Xserver.svg"
+									alt="xserver"
+									width="30"
+								/></td
+							>
+							<td><code>Xserver</code></td>
+							<td><img src="/img/T-Rex.png" width="30" /></td>
+							<td
+								><img
+									src="/img/SlightlySmilingFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/vim.svg"
+									alt="vim"
+									width="30"
+								/></td
+							>
+							<td><code>Vim</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/NauseatedFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/photoshop.svg"
+									alt="photoshop"
+									width="30"
+								/></td
+							>
+							<td><code>Photoshop</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/NauseatedFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+						<tr>
+							<td
+								><img
+									src="/icon/illustrator.svg"
+									alt="illustrator"
+									width="30"
+								/></td
+							>
+							<td><code>Illustrator</code></td>
+							<td
+								><img
+									src="/img/HatchingChick.png"
+									width="30"
+								/></td
+							>
+							<td
+								><img
+									src="/img/NauseatedFace.png"
+									width="30"
+								/></td
+							>
+						</tr>
+					</table>
 				</div>
 			</section>
+
 			<section>
-				<h2 class="section-title">趣味とか個人的なこと</h2>
+				<h2 class="section-title">性格とは趣味とか個人的なこと</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>
+						自分から積極的にコミュニケーションを取りにいく方ではないけれど、会話するのは好きな方だと思っています。
+					</p>
+					<p>
+						インドア派です。<br />
+						プログラミング以外の趣味はギターと作曲。
+						ギター歴は10年くらい。
+						最近はヨルシカばかり聴いています。
+					</p>
+					<p>
+						あと漫画、映画、小説が好きです。<br />
+						漫画は乙嫁語りとかハクメイとミコチなどの日常を描いた作品が好き。<br />
+						映画は洋画が好きです。スナッチ、グッドウィルハンティング、26世紀青年とかなんでも見ます。
+						小説は筒井康隆と星新一が好き。
+					</p>
 				</div>
 			</section>
 		</main>
-
-		<ContactCTA />
 	</div>
+
+	<ContactCTA />
 </BaseLayout>
 
 <style>
+	h3 {
+		font-size: 1rem;
+		margin-top: 2rem;
+	}
+
+	p {
+		margin: 1rem 0 1rem 0;
+	}
+
 	.about {
 		display: flex;
 		flex-direction: column;
@@ -60,6 +772,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 		margin-top: 1.5rem;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+	}
+
+	table {
+		/* width: 100%; */
+		border-collapse: collapse;
+		margin-top: 3rem;
+	}
+
+	th,
+	td {
+		padding: 0.5em;
+		border: 1px solid var(--gray-200);
+		text-align: left;
+
+		img {
+			border-radius: 0;
+			box-shadow: none;
+		}
 	}
 
 	section {
