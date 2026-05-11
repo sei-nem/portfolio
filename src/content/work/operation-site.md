@@ -9,13 +9,14 @@ tags:
   - 運用経験のあるサイト
 ---
 
+##### 担当業務
 - PHP / WordPress / Movable Type を利用した企業サイトの運用更新。
 - ニュースリリースの追加・修正。
 - キャンペーンバナーの制作および差し替え。
 - 地方銀行サイトにおけるローン金利変更などの定期更新。
-- ページ構成の調整、軽微なレイアウト修正、HTML/CSS コーディング。
+- ページ構成の調整、レイアウト修正、HTML/CSS コーディング。
 
-##### 主な運用業務担当サイト
+##### 主な運用業務担当サイト抜粋
 - 小林製薬様・<a href="https://www.kobayashi.co.jp/" target="_blank">kobayashi.co.jp</a>
 - 小林財団様・<a href="https://www.kisf.or.jp/" target="_blank">kisf.or.jp</a>
 - 大幸薬品様・<a href="https://www.seirogan.co.jp/" target="_blank">seirogan.co.jp</a>
